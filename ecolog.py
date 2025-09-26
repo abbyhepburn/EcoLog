@@ -548,7 +548,7 @@ while True:
     5) Exit""")
 
     opt = int(input("Choose an option: "))
-    if (opt < 1) or (opt > 4):
+    if (opt < 1) or (opt > 5):
         print("Invalid input. Please choose an option 1-4")
         continue
     if opt == 1:
