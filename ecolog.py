@@ -703,9 +703,7 @@ while True:
             continue
         else:
             print(f"You've unlocked: {total}")
-            view = input("What's the name of the animal you'd like to viewgit remote add origin https://github.com/abbyhepburn/EcoLog.git
-git branch -M main
-git push -u origin main: ")
+            view = input("What's the name of the animal you'd like to view: ")
             if view == "salmon" or (view == "Salmon") or (view == "SALMON"):
                 viewit("salmon",fwcount)
             if view == "axolotl" or (view == "Axolotl") or (view == "AXOLOTL"):
